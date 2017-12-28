@@ -7,7 +7,6 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  public isCollapsed = true;
   columnName : String
   
   constructor(public navCtrl: NavController) {
