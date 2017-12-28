@@ -1,0 +1,8 @@
+{
+  "name": "slidesDjigo",
+  "app_id": "11a23e01",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
