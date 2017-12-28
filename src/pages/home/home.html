@@ -1,14 +1,18 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="content">
+<ion-grid no-padding>
+  <ion-row>
+      <ion-col class="column-1" (click)="Expand('column-1')">
+        <div class="card">
+        
+      </div></ion-col>
+      <ion-col class="column-2"  (click)="Expand('column-2')"><div class="card">
+          
+        </div></ion-col>
+      <ion-col class="column-3" (click)="Expand('column-3')"><div class="card">
+          
+        </div></ion-col>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+</ion-row>
+</ion-grid>
 </ion-content>
