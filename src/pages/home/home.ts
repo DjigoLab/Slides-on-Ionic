@@ -25,7 +25,10 @@ export class HomePage {
       case 'column-1':
       col2[0].removeAttribute('col-9');
       col3[0].removeAttribute('col-9');
-      col1[0].setAttribute('col-9','');  
+      col1[0].setAttribute('col-9','');
+      col1[0].style.webkitFilter = "grayscale(0%)"
+      col2[0].style.webkitFilter = "grayscale(100%)"
+      col3[0].style.webkitFilter = "grayscale(100%)"  
       break;
   
       case 'column-2':
@@ -33,13 +36,18 @@ export class HomePage {
         col1[0].removeAttribute('col-9');
         col3[0].removeAttribute('col-9');
         col2[0].setAttribute('col-9','');         
-      
+        col2[0].style.webkitFilter = "grayscale(0%)"
+        col1[0].style.webkitFilter = "grayscale(100%)"
+        col3[0].style.webkitFilter = "grayscale(100%)"
         break;
         case 'column-3':
 
         col1[0].removeAttribute('col-9');
         col2[0].removeAttribute('col-9');
         col3[0].setAttribute('col-9','');
+        col3[0].style.webkitFilter = "grayscale(0%)"
+        col1[0].style.webkitFilter = "grayscale(100%)"
+        col2[0].style.webkitFilter = "grayscale(100%)"
         break; 
     }
     }

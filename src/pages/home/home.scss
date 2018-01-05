@@ -7,23 +7,39 @@ ion-row{height: 100%;}
 
 
 .card{
-height: 100%;
+margin-top: 15%;
  
-border: 1px solid;
-}
 
+}
+.card-icon{
+    
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 0.8em;
+    
+    
+    
+}
 .column-1{transition: all 1000ms ease;
     background-image: url("./../../assets/imgs/bgtravel.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    filter: grayscale(100%);
+    
+ }
 .column-2{transition: all 1000ms ease;
     background-image: url("./../../assets/imgs/bgfood.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover; 
+    filter: grayscale(100%);}
 .column-3{transition: all 1000ms ease;
     background-image: url("./../../assets/imgs/bgparty.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover; 
+    filter: grayscale(100%);}
